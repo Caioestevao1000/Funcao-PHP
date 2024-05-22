@@ -19,32 +19,39 @@
 
     <?php
 
-        $valores = array(5, 2, -4, 0, 3);
+        echo "Testando...<br>";
+
+        $valores = array(5, 2, -4, 0, 20, 3);
+
         foreach($valores as $num){
-            //----------------------parOUimpar-------------------------------------------
-            if($num % 2 == 0){
-                    echo " $num é PAR,";
-                }else{
-                    echo " $num é IMPAR,";
-            }
-
-            //---------------------intOUfloat---------------------------------------------
-            if ($num % 10 == 0){
-                    echo " redondo";
-                }
-                else{
-                    echo " não redondo";
-            }
-
-            //------------------------------+-0-------------------------------------------
-            if($num > 0 ){
-                    echo " e Positivo.<br>";
-                }if($num < 0){
-                    echo " e Negativo.<br>";
-                }if($num == 0){
-                    echo "e Neutro.<br>";
-                }   
+            echo calc($num);
         }
+
+        function calc($num){
+            //-----------------------parOUimpar--------------------------------
+            if($num % 2 == 0){
+                echo " $num é par,";
+            }elseif($num != 0){
+                echo " $num é ímpar,";
+            }
+
+            //-----------------------intOUfloat--------------------------------
+            if ($num % 10 == 0){
+                echo " redondo";
+            }
+            elseif($num != 0){
+                echo " não redondo";
+            }
+
+            //---------------------------+-0-----------------------------------
+            if($num > 0 ){
+                echo " e Positivo.<br>";
+            }if($num < 0){
+                echo " e Negativo.<br>";
+            }if($num == 0){
+                echo " e Neutro.<br>";
+            }
+        } 
 
     ?>
 
