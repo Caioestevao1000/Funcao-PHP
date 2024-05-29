@@ -21,17 +21,10 @@ Utilizando Funções, esse exercício utiliza função com os códigos do reposi
 ## Funcionalidades
 
 
-### Cálculos
-
-
 ## Tecnologia Utilizadas
 - :heavy_check_mark: [HTML]
 - :heavy_check_mark: [PHP]
 - :heavy_check_mark: [GIT]
-
-
-## Fontes Consultas
-- asd
 
 ## Autor
 Aluno: Caio Estevão
