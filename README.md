@@ -10,7 +10,7 @@ Atividade Avaliativa de Programção Web II
 * [Autor](#autor)
   -->
 
-Projeto criado com base em atividade da atividade de Programação Web II. Escola Social Marista Ir. Acácio - Ensino Médio Técnico.  
+Projeto criado com base em atividade de Programação Web II. Escola Social Marista Ir. Acácio - Ensino Médio Técnico.  
 ![Capa do Projeto]()
 
 
